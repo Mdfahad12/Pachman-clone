@@ -151,7 +151,7 @@ const Barchart = () => {
    };
   useEffect(() => {
     const handleResize = () => {
-      setChartWidth(window.innerWidth * 0.95);
+      setChartWidth(window.innerWidth * 1);
     };
 
     window.addEventListener("resize", handleResize);
